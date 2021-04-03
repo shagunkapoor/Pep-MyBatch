@@ -1,6 +1,7 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
+//i/p:   aabbccccddddeee
+//o/p:   a*ab*bc*c*c*cd*d*d*de*e*e
 public class ISeparateDuplicates {
 
 	public static void main(String[] args) {

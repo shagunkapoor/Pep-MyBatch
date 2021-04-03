@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 public class JFibonacciSeries {
 
 	public static void main(String[] args) {

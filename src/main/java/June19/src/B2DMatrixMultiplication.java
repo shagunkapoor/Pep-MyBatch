@@ -1,7 +1,3 @@
-import java.util.Scanner;
-
-import org.omg.Messaging.SyncScopeHelper;
-
 public class B2DMatrixMultiplication {
 
 	public static void main(String[] args) {

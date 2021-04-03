@@ -16,8 +16,9 @@ public class DSudoku {
 		};
 		int[][] rowcol=new int[arr.length][arr.length];
 		int[][] subm=new int[3][3];
-		sudoku(arr,0,0);		
+		//sudoku(arr,0,0);
 	}
+	/*
 	public static void sudoku(int[][] arr,int[][] rowcol, int[][] submatrix, boolean isnum ){
 		//Setting rows & columns
 		for(int i=0;i<arr.length;i++){
@@ -47,5 +48,6 @@ public class DSudoku {
 			}
 		}
 	}
+	*/
 
 }

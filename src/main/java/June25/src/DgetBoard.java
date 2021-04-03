@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 
 //No. of ways to reach dest. from src.
+//steps taken via dice
 public class DgetBoard {
 
 	public static void main(String[] args) {

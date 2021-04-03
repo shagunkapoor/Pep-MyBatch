@@ -23,7 +23,7 @@ public class EPrintAllPermutationsOfAString {
 	StringBuilder sb=new StringBuilder();
 	
 	for(int i=0;i<str.length();i++){
-		String s=str%3;
+		String s=str+3;
 	}
 	}
 
