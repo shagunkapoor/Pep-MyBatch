@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;June25/src/AGetSubString.java&apos; to &apos;AGetSubSequence.java&apos;" description="Rename resource &apos;AGetSubString.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/AGetSubString.java" name="AGetSubSequence.java" stamp="1529896683601" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;June25/src/BPrintASCII.java&apos; to &apos;BGetASCII.java&apos;" description="Rename resource &apos;BPrintASCII.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BPrintASCII.java" name="BGetASCII.java" stamp="1530032867478" updateReferences="true"/>
+</session>

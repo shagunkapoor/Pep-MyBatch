@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;res&apos; in &apos;Oct1_Subseq.Graphs.TS(...)&apos; to &apos;stack&apos;&#x0D;&#x0A;- Original project: &apos;AugNewBatch&apos;&#x0D;&#x0A;- Original element: &apos;Oct1_Subseq.Graphs.TS(int).res&apos;&#x0D;&#x0A;- Renamed element: &apos;res&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;res&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Oct1_Subseq{Graphs.java[Graphs~TS~I@res!9260!9308!9284!9286!QLinkedListList\&lt;QInteger;&gt;;!0!false" name="stack" references="true" stamp="1548140503774" version="1.0"/>
+</session>

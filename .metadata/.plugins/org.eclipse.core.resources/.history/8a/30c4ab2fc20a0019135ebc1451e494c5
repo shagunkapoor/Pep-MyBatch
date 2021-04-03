@@ -1,0 +1,20 @@
+
+public class KMP {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String m="abdcaabraakadaabraaaabdceabcdaabdcefabghiaa";
+		
+		String pat="abdcefab";
+		
+		int[] lps=new int[pat.length()+1];
+		lps=pitable(pat);  //longest prefix which is same as some suffix (lps)
+		
+	}
+	
+	public static int[] pitable(String pat){
+		
+	}
+
+}

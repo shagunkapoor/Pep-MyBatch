@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;June14/src/I.java&apos; to &apos;INumberRotationByr.java&apos;" description="Rename resource &apos;I.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/I.java" name="INumberRotationByr.java" stamp="1536127750685" updateReferences="true"/>
+</session>

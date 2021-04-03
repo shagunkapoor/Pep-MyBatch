@@ -1,0 +1,15 @@
+package practice;
+
+public class MobStacTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Matrix colouring
+		
+	}
+	
+	public static void matrixcolourings(){
+		
+	}
+
+}

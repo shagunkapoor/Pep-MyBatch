@@ -1,0 +1,29 @@
+package practice;
+
+import java.util.Collections;
+import java.util.PriorityQueue;
+
+public class ThoughtWorks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=5,k=3;
+		int[] arr={1,4,10,8,15};
+		mag(n,k,arr);
+
+	}
+	
+	public static void mag(int n, int k, int[] arr){
+		
+		PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
+		
+		for(int i=1;i<=k;i++){
+			pq.add(Integer.MAX_VALUE);
+		}
+		
+		
+	}
+
+}
+

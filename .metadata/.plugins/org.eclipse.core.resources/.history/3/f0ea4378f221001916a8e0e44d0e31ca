@@ -1,0 +1,110 @@
+
+public class GeeksQues {
+
+	public static void main(String[] args) {
+
+		// Printing brackets in Matrix Chain Multiplication Problem
+		// Given an array p[] which represents the chain of matrices such
+		// that the ith matrix Ai is of dimension p[i-1] x p[i]. We need to
+		// write a function MatrixChainOrder() that should return the minimum
+		// number of multiplications needed to multiply the chain.
+		//
+		// Input: p[] = {40, 20, 30, 10, 30}
+		// Output: Optimal parenthesization is ((A(BC))D)
+		// Optimal cost of parenthesization is 26000
+
+		int[] dims = { 40, 20, 30, 10, 30 };
+		System.out.println("Min Operations:" + MatrixChainMultiplication(dims, 0, 5).cost);
+		System.out.println("Order of execution:" + MatrixChainMultiplication(dims, 0, 5).name);
+
+		// Count total set bits in all numbers from 1 to n
+		// Given a positive integer n, count the total number of
+		// set bits in binary representation of all numbers from 1 to n.
+		System.out.println(CountSetbits(7));
+
+		// Number of subsequences of the form a^i b^j c^k
+		// Given a string, count number of subsequences of the form aibjck,
+		// i.e.,
+		// it consists of i ’a’ characters, followed by j ’b’ characters,
+		// followed by k ’c’ characters where i >= 1, j >=1 and k >= 1.
+		//
+		// Note: Two subsequences are considered different if the set of array
+		// indexes picked for the 2 subsequences are different.
+		//
+		// Expected Time Complexity : O(n)
+		//
+		// Examples:
+		//
+		// Input : abbc
+		// Output : 3
+		// Subsequences are abc, abc and abbc
+		
+		System.out.println(numberofSubseq("cbacbaabc"));
+	}
+
+	static String arr[] = { "A", "B", "c", "D", "E" };
+
+	public class Stringmcm {
+		int cost;
+		String name;
+
+	}
+
+	public static Stringmcm MatrixChainMultiplication(int[] dims, int si, int ei) {
+		Stringmcm[][] mcm = new Stringmcm[dims.length][dims.length];
+
+		for (int gap = 1; gap <= dims.length - 1; gap++) {
+			int i = si;
+			int j = i + gap;
+
+			while (j < dims.length) {
+				if (j - i == 1) {
+					mcm[i][j].cost = 0;
+					mcm[i][j].name = arr[i];
+				} else {
+
+					int min = Integer.MAX_VALUE;
+					for (int cp = i + 1; cp <= j - 1; cp++) {
+						int fp = mcm[i][cp].cost;
+						int sp = mcm[cp][j].cost;
+						int pc = dims[i] * dims[cp] * dims[j];
+
+						int totalcost = fp + sp + pc;
+						if (totalcost < min) {
+							mcm[i][j].cost = totalcost;
+							mcm[i][j].name = "(" + mcm[i][cp].name + mcm[cp][j].name + ")";
+						}
+
+					}
+				}
+				i++;
+				j++;
+			}
+		}
+
+		return mcm[0][dims.length - 1];
+	}
+
+	public static int CountSetbits(int n) { // nlogn
+		int count = 0;
+		for (int i = 1; i <= n; i++) {
+			int num = i;
+			while (num != 0) {
+				num = num & (num - 1);
+				count++;
+			}
+		}
+		return count;
+	}
+
+	public static int numberofSubseq(String str){
+		int aCount=0;
+		int bCount=0;
+		int cCount=0;
+		
+		
+		return cCount;
+		
+		
+	}
+}

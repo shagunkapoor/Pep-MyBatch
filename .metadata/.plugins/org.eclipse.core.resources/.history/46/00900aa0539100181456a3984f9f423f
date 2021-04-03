@@ -1,0 +1,68 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.PriorityQueue;
+
+public class PriorityQueue1 {
+
+	public static void main(String[] args) {
+	
+	
+	int[] arr={10,44,2,15,9,63,8};
+	minPQ(arr);
+	maxPQ(arr);
+	System.out.println();
+	System.out.println("Print K largest");
+	printKLargestItems(arr,3);
+	System.out.println("Print K smallest");
+	printKSmallestItems(arr, 3);
+	
+	}
+	public static void minPQ(int [] arr){
+		PriorityQueue<Integer> pq=new PriorityQueue<>();
+		for(int val:arr){
+			pq.add(val);
+		}
+		while(pq.size()>0){
+			System.out.print(pq.remove()+" ");
+		}
+	}
+	public static void maxPQ(int[] arr){
+		PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
+		for(int val:arr){
+			pq.add(val);
+		}
+		while(pq.size()>0){
+			System.out.print(pq.remove()+" ");
+		}
+	}
+	
+	public static void printKLargestItems(int[] arr,int k){
+		PriorityQueue<Integer> pq=new PriorityQueue<>();
+		for(int i=0;i<arr.length;i++){
+			if(i<k){
+				pq.add(arr[i]);
+			}else{
+				if(arr[i]>pq.peek()){
+					pq.remove();
+					pq.add(arr[i]);
+				}
+			}
+		}
+		System.out.println(pq);
+	}
+	public static void printKSmallestItems(int[] arr,int k){
+		PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
+		for(int i=0;i<arr.length;i++){
+			if(i<k){
+				pq.add(arr[i]);
+			}else{
+				if(arr[i]<pq.peek()){
+					pq.remove();
+					pq.add(arr[i]);
+				}
+			}
+		}
+		System.out.println(pq);
+	}
+
+}

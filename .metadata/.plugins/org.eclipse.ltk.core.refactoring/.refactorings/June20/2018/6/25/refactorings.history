@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;June20/src/EDivideArray.java&apos; to &apos;EMinSwapsToBringElmntsLessThanKTogether.java&apos;" description="Rename resource &apos;EDivideArray.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EDivideArray.java" name="EMinSwapsToBringElmntsLessThanKTogether.java" stamp="1529474183992" updateReferences="true"/>
+</session>

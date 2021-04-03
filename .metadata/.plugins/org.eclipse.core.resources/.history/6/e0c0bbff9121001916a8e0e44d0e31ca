@@ -1,0 +1,11 @@
+
+public class GeeksQues {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Count total set bits in all numbers from 1 to n
+		// Given a positive integer n, count the total number of set bits in binary representation of all numbers from 1 to n.
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class EExitPosition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] arr = { { 0, 0, 1, 0 }, 
+						{ 1, 0, 0 , 0 }, 
+						{ 0, 0, 0, 0 }, 
+						{ 1, 0, 1, 0 } };
+		int r = arr.length;
+		int c = arr[0].length;
+
+		int rmin = 0;
+		int rmax = r - 1;
+		int cmin = 0;
+		int cmax = c - 1;
+	
+	}
+
+}

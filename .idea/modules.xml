@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/AlgorithmsImp/AlgorithmsImp.iml" filepath="$PROJECT_DIR$/src/main/java/AlgorithmsImp/AlgorithmsImp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/AmazonQues/AmazonQues.iml" filepath="$PROJECT_DIR$/src/main/java/AmazonQues/AmazonQues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/AugNewBatch/AugNewBatch.iml" filepath="$PROJECT_DIR$/src/main/java/AugNewBatch/AugNewBatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/Hackerrank/Hackerrank.iml" filepath="$PROJECT_DIR$/src/main/java/Hackerrank/Hackerrank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June09/June09.iml" filepath="$PROJECT_DIR$/src/main/java/June09/June09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June12/June12.iml" filepath="$PROJECT_DIR$/src/main/java/June12/June12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June14/June14.iml" filepath="$PROJECT_DIR$/src/main/java/June14/June14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June15/June15.iml" filepath="$PROJECT_DIR$/src/main/java/June15/June15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June16/June16.iml" filepath="$PROJECT_DIR$/src/main/java/June16/June16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June18/June18.iml" filepath="$PROJECT_DIR$/src/main/java/June18/June18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June19/June19.iml" filepath="$PROJECT_DIR$/src/main/java/June19/June19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June20/June20.iml" filepath="$PROJECT_DIR$/src/main/java/June20/June20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June21/June21.iml" filepath="$PROJECT_DIR$/src/main/java/June21/June21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June22/June22.iml" filepath="$PROJECT_DIR$/src/main/java/June22/June22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June23/June23.iml" filepath="$PROJECT_DIR$/src/main/java/June23/June23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June25/June25.iml" filepath="$PROJECT_DIR$/src/main/java/June25/June25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June26/June26.iml" filepath="$PROJECT_DIR$/src/main/java/June26/June26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June27/June27.iml" filepath="$PROJECT_DIR$/src/main/java/June27/June27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June28/June28.iml" filepath="$PROJECT_DIR$/src/main/java/June28/June28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June29/June29.iml" filepath="$PROJECT_DIR$/src/main/java/June29/June29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/June30/June30.iml" filepath="$PROJECT_DIR$/src/main/java/June30/June30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly02/KJuly02.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly02/KJuly02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly03/KJuly03.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly03/KJuly03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly05/KJuly05.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly05/KJuly05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly06/KJuly06.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly06/KJuly06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly07/KJuly07.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly07/KJuly07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly09/KJuly09.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly09/KJuly09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly12/KJuly12.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly12/KJuly12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly17/KJuly17.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly17/KJuly17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly19/KJuly19.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly19/KJuly19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly23/KJuly23.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly23/KJuly23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly24/KJuly24.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly24/KJuly24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly26/KJuly26.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly26/KJuly26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly27/KJuly27.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly27/KJuly27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/KJuly30/KJuly30.iml" filepath="$PROJECT_DIR$/src/main/java/KJuly30/KJuly30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/LAug01/LAug01.iml" filepath="$PROJECT_DIR$/src/main/java/LAug01/LAug01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/LAug05/LAug05.iml" filepath="$PROJECT_DIR$/src/main/java/LAug05/LAug05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/LAug07/LAug07.iml" filepath="$PROJECT_DIR$/src/main/java/LAug07/LAug07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/LAug18/LAug18.iml" filepath="$PROJECT_DIR$/src/main/java/LAug18/LAug18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/src/main/java/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/Simple Interest/Simple Interest.iml" filepath="$PROJECT_DIR$/src/main/java/Simple Interest/Simple Interest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/TW/TW.iml" filepath="$PROJECT_DIR$/src/main/java/TW/TW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/project/project.iml" filepath="$PROJECT_DIR$/src/main/java/project/project.iml" />
+    </modules>
+  </component>
+</project>

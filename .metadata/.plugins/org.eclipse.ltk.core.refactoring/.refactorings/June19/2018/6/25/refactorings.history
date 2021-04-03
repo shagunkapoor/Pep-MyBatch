@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;June19/src/EExitPosition.java&apos; to &apos;EExitPositionSelfTry.java&apos;" description="Rename resource &apos;EExitPosition.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EExitPosition.java" name="EExitPositionSelfTry.java" stamp="1529512141884" updateReferences="true"/>
+</session>

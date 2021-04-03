@@ -1,0 +1,44 @@
+import java.util.HashSet;
+
+public class CIsPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// String s="eclipilce";
+		boolean res = true;
+		String phrase = "siX-.+x-uyae-olf";
+		
+		
+		HashSet<Character> hs = new HashSet<>();
+		for (int i = 0; i < phrase.length(); i++) {
+			char c = phrase.charAt(i);
+
+			if (c == '-' || c == ' ')
+				continue;
+			else {
+				if (hs.contains(c)){
+					res= false;
+				break;
+			}
+				hs.add(c);
+			}
+		}
+
+		
+
+		System.out.println(res);
+
+	}
+}
+/*
+ * int n = s.length(); boolean res = true; // for(int i=0,j=n-1;i<n/2 &&
+ * j>=n/2;i++,j--){ // if(s.charAt(i)!=s.charAt(j)){ // CORRECT // res=false; //
+ * } // } // int left = 0; int right = s.length() - 1; while (left < right) { if
+ * (s.charAt(left) != s.charAt(right)) { res = false; } left++; right--; }
+ * 
+ * if (res == true) { System.out.println("String is Palindrome"); } else
+ * System.out.println("String is not Palindrome"); }
+ * 
+ * }
+ */

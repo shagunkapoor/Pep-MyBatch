@@ -1,0 +1,42 @@
+
+public class CIsPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "eclipilce";
+		
+		if(s.isEmpty())
+			System.out.println("hi");
+		else
+			System.out.println("hi"+s+"bye");
+		
+	}
+}
+		/*
+		int n = s.length();
+		boolean res = true;
+		// for(int i=0,j=n-1;i<n/2 && j>=n/2;i++,j--){
+		// if(s.charAt(i)!=s.charAt(j)){                          // CORRECT
+		// res=false;
+		// }
+		// }
+		//
+		int left = 0;
+		int right = s.length() - 1;
+		while (left < right) {
+			if (s.charAt(left) != s.charAt(right)) {
+				res = false;
+			}
+			left++;
+			right--;
+		}
+
+		if (res == true) {
+			System.out.println("String is Palindrome");
+		} else
+			System.out.println("String is not Palindrome");
+	}
+
+}
+*/

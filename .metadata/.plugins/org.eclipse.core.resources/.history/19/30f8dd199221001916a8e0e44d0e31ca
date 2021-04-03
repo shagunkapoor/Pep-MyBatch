@@ -1,0 +1,25 @@
+
+public class GeeksQues {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Count total set bits in all numbers from 1 to n
+		// Given a positive integer n, count the total number of 
+		//set bits in binary representation of all numbers from 1 to n.
+		System.out.println(CountSetbits(3));
+	}
+	
+	public static int CountSetbits(int n){
+		int count=0;
+		for(int i=1;i<=n;i++){
+			int num=i;
+			while(num!=0){
+				num=num&(num-1);
+				count++;
+			}
+		}
+		return count;
+	}
+
+}

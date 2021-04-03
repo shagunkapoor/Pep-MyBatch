@@ -1,0 +1,18 @@
+package practice;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String str="765028321";
+		int n=5;
+		
+		String res=buildLowest(str, n);
+		System.out.println(res);
+	}
+	
+	
+	private static String buildLowest(String str, int n){
+		
+	}
+
+}

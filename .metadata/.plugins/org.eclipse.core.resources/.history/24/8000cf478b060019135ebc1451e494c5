@@ -1,0 +1,33 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class ComproTest {
+
+	public static void main(String[] args) {
+
+		String str = "ABcdaulPsabAaruJHuabBaslruCD";
+		bulbasaur(str, "Bulbasaur");
+
+	}
+
+	public static void bulbasaur(String str, String findstr) {
+
+		HashMap<Character, Integer> hmap = new HashMap<>();
+		for (int i = 0; i < str.length(); i++) {
+			Character ch = str.charAt(i);
+
+			if (ch == 'B' || ch == 'u' || ch == 'l' || ch == 'b' || ch == 'a' || ch == 's' || ch == 'r') {
+				hmap.put(ch, hmap.containsKey(ch) ? hmap.get(ch) + 1 : 1);
+			}
+
+		}
+
+		ArrayList<Character> allkeys=new ArrayList<>(hmap.keySet());
+		
+		
+		
+	}
+
+}

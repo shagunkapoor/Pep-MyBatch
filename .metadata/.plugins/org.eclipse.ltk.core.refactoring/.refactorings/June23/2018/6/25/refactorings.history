@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;June23/src/DFindIndex.java&apos; to &apos;DFind.java&apos;" description="Rename resource &apos;DFindIndex.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DFindIndex.java" name="DFind.java" stamp="1529724456973" updateReferences="true"/>
+</session>

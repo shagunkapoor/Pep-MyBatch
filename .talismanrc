@@ -1,0 +1,63 @@
+fileignoreconfig:
+- filename: .metadata/.log
+  checksum: c466717b283564d8959efe773000c38920a81bf07b66cf1afe630fe171df5012
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+  checksum: 4087785e2b2b62b7db5f82e5d6353788263df31cfd4a8376161e071521094fcc
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.rse.core/.log
+  checksum: 54d41d8f5d296f00db0ada3c35a26d2ba0f91ab4cadf42fb3b9366db24994dbe
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.rse.ui/.log
+  checksum: 093f8bcf7b0130c7754648de3c99aa9bd6431d7f3ad1bb5a450eb5e0d6f1d649
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_10.nrm
+  checksum: 8450cbe27416d5d10ff44219e7416c102ac566c53043d69ba52497ad959514a4
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_11.nrm
+  checksum: 6f2c6866ed43ce6e485e007aa54d98e6a63aa3347c3fb9d2ef1652d36acb2aee
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_12.nrm
+  checksum: 1229feaa3e59a5906b04b71b7410f52f197294c503eeea85f317d099a7c8a752
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_13.nrm
+  checksum: 49f88c91c7c2adba8c53026c84d4dcf5774d71fe4d6a7a6e245a2e7984315d5e
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_v.nrm
+  checksum: 37744c971ab22224c33b775238a3eef90fb3646bb10901e4d77b3bcef567a070
+  ignore_detectors: []
+scopeconfig: []
+fileignoreconfig:
+- filename: .metadata/.log
+  checksum: c466717b283564d8959efe773000c38920a81bf07b66cf1afe630fe171df5012
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_10.nrm
+  checksum: 8450cbe27416d5d10ff44219e7416c102ac566c53043d69ba52497ad959514a4
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_11.nrm
+  checksum: 6f2c6866ed43ce6e485e007aa54d98e6a63aa3347c3fb9d2ef1652d36acb2aee
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_12.nrm
+  checksum: 1229feaa3e59a5906b04b71b7410f52f197294c503eeea85f317d099a7c8a752
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_13.nrm
+  checksum: 49f88c91c7c2adba8c53026c84d4dcf5774d71fe4d6a7a6e245a2e7984315d5e
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_v.nrm
+  checksum: 37744c971ab22224c33b775238a3eef90fb3646bb10901e4d77b3bcef567a070
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+  checksum: 4087785e2b2b62b7db5f82e5d6353788263df31cfd4a8376161e071521094fcc
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.rse.core/.log
+  checksum: 54d41d8f5d296f00db0ada3c35a26d2ba0f91ab4cadf42fb3b9366db24994dbe
+  ignore_detectors: []
+- filename: .metadata/.plugins/org.eclipse.rse.ui/.log
+  checksum: 093f8bcf7b0130c7754648de3c99aa9bd6431d7f3ad1bb5a450eb5e0d6f1d649
+  ignore_detectors: []
+- filename: .idea/workspace.xml
+  checksum: b227586c975b050ba8a7c704bc3eb18e6c18e607b0e6a1d3793fcfc9582bf4bc
+  ignore_detectors: []
+scopeconfig: []
+
+

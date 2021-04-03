@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;June29/src/BPrintNKnights.java&apos; to &apos;CPrintNKnights.java&apos;" description="Rename resource &apos;BPrintNKnights.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BPrintNKnights.java" name="CPrintNKnights.java" stamp="1530251090643" updateReferences="true"/>
+</session>

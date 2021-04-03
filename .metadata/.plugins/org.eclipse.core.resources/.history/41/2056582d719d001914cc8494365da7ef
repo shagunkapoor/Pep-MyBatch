@@ -1,0 +1,38 @@
+import java.util.HashSet;
+
+//import java.util.HashSet;
+
+public class CIsPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 String s="eclipilce";
+		 
+		 for(int i=0;i<s.length();i++){
+			 char c=s.charAt(i);
+			 if()
+		 }
+		
+		HashSet<Character> hs=new HashSet<>();
+		for(int i=0;i<s.length();i++){
+			hs.add(s.charAt(i));
+		}
+		
+		System.out.println(hs.size());
+		
+//				System.out.println(res==sum?true:false);
+
+	}
+}
+/*
+ * int n = s.length(); boolean res = true; // for(int i=0,j=n-1;i<n/2 &&
+ * j>=n/2;i++,j--){ // if(s.charAt(i)!=s.charAt(j)){ // CORRECT // res=false; //
+ * } // } // int left = 0; int right = s.length() - 1; while (left < right) { if
+ * (s.charAt(left) != s.charAt(right)) { res = false; } left++; right--; }
+ * 
+ * if (res == true) { System.out.println("String is Palindrome"); } else
+ * System.out.println("String is not Palindrome"); }
+ * 
+ * }
+ */

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arr&apos; in &apos;KMP.pitable(...)&apos; to &apos;lps&apos;&#x0D;&#x0A;- Original project: &apos;AlgorithmsImp&apos;&#x0D;&#x0A;- Original element: &apos;KMP.pitable(String).arr&apos;&#x0D;&#x0A;- Renamed element: &apos;arr&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arr&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{KMP.java[KMP~pitable~QString;@arr!394!427!400!402!\[I!0!false" name="lps" references="true" stamp="1546019126414" version="1.0"/>
+</session>
