@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;June16/src/EArray.java&apos; to &apos;EOneChangeSeriesValidORNot.java&apos;" description="Rename resource &apos;EArray.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EArray.java" name="EOneChangeSeriesValidORNot.java" stamp="1529340027479" updateReferences="true"/>
-</session>

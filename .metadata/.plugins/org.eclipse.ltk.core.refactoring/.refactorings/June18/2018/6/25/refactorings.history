@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;June18/src/C.java&apos; to &apos;CBinarySearch.java&apos;" description="Rename resource &apos;C.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/C.java" name="CBinarySearch.java" stamp="1529293231181" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;June18/src/FConverseOfArray.java&apos; to &apos;FInverseOfArray.java&apos;" description="Rename resource &apos;FConverseOfArray.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/FConverseOfArray.java" name="FInverseOfArray.java" stamp="1529302369544" updateReferences="true"/>
-</session>

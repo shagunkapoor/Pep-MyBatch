@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;June19/src/ASubarrayWithLargestSum.java&apos; to &apos;ASubarrayWithLargestSumORKadanes.java&apos;" description="Rename resource &apos;ASubarrayWithLargestSum.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ASubarrayWithLargestSum.java" name="ASubarrayWithLargestSumORKadanes.java" stamp="1531063027452" updateReferences="true"/>
-</session>

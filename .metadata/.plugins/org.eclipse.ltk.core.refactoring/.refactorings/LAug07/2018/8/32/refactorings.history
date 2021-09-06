@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;div&apos; in &apos;DP.matrixChainMultiplication(...)&apos; to &apos;cp&apos;&#x0D;&#x0A;- Original project: &apos;LAug07&apos;&#x0D;&#x0A;- Original element: &apos;DP.matrixChainMultiplication(int[], int, int, int[][]).div&apos;&#x0D;&#x0A;- Renamed element: &apos;div&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;div&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{DP.java[DP~matrixChainMultiplication~\[I~I~I~\[\[I@div!9749!9760!9753!9755!I!0!false" name="cp" references="true" stamp="1533908921566" version="1.0"/>
-</session>
