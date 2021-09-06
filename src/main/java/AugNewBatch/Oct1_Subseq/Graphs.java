@@ -1,4 +1,4 @@
-package Oct1_Subseq;
+package AugNewBatch.Oct1_Subseq;
 
 import java.util.*;
 
@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class Graphs {
+	/*
 	public static void main(String[] args) {
 
 		spd = Integer.MAX_VALUE;
@@ -271,7 +272,7 @@ public class Graphs {
 	}
 
 	// Kruskals without Node Class
-	private class Edge implements Comparable<Edge> {
+	private static class Edge implements Comparable<Edge> {
 		int u;
 		int v;
 		int wt;
@@ -466,4 +467,6 @@ public class Graphs {
 		return stack;
 	}
 
+
+ */
 }

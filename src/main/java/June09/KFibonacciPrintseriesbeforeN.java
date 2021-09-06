@@ -1,4 +1,4 @@
-//To series till the n'th element of fibonacci series
+package June09;//To series till the n'th element of fibonacci series
 
 import java.util.Scanner;
 

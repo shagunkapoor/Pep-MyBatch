@@ -1,3 +1,5 @@
+package AmazonQues;
+
 import java.util.LinkedList;
 
 public class GeeksQues {
@@ -30,8 +32,8 @@ public class GeeksQues {
 		// Number of subsequences of the form a^i b^j c^k
 		// Given a string, count number of subsequences of the form aibjck,
 		// i.e.,
-		// it consists of i ’a’ characters, followed by j ’b’ characters,
-		// followed by k ’c’ characters where i >= 1, j >=1 and k >= 1.
+		// it consists of i ï¿½aï¿½ characters, followed by j ï¿½bï¿½ characters,
+		// followed by k ï¿½cï¿½ characters where i >= 1, j >=1 and k >= 1.
 		//
 		// Note: Two subsequences are considered different if the set of array
 		// indexes picked for the 2 subsequences are different.
@@ -119,8 +121,8 @@ public class GeeksQues {
 		// Given a binary string, count number of substrings that start and end
 		// with 1.
 		// Given a binary string, count number of substrings that start and end
-		// with 1. For example, if the input string is “00100101”, then there
-		// are three substrings “1001”, “100101” and “101”.
+		// with 1. For example, if the input string is ï¿½00100101ï¿½, then there
+		// are three substrings ï¿½1001ï¿½, ï¿½100101ï¿½ and ï¿½101ï¿½.
 
 		String input = "10101101";
 		System.out.println(CountSubstringsBTW1AND1(input));
@@ -130,7 +132,7 @@ public class GeeksQues {
 		// linked list,
 		// how do you delete it?
 		// Given a pointer to a node to be deleted, delete the node.
-		// Note that we don’t have pointer to head node.
+		// Note that we donï¿½t have pointer to head node.
 
 		Node o = new Node(6, null);
 		Node o1 = new Node(5, o);
@@ -177,7 +179,7 @@ public class GeeksQues {
 //		Given a a Binary Tree, find the difference between the sum of nodes 
 //		at odd level and the sum of nodes at even level. 
 //		Consider root as level 1, left and right children of root as level 2 and so on.
-//		For example, in the following tree, sum of nodes at odd level is (5 + 1 + 4 + 8) which is 18. And sum of nodes at even level is (2 + 6 + 3 + 7 + 9) which is 27. The output for following tree should be 18 – 27 which is -9.
+//		For example, in the following tree, sum of nodes at odd level is (5 + 1 + 4 + 8) which is 18. And sum of nodes at even level is (2 + 6 + 3 + 7 + 9) which is 27. The output for following tree should be 18 ï¿½ 27 which is -9.
 //
 //		      5
 //		    /   \
@@ -192,11 +194,11 @@ public class GeeksQues {
 		
 		
 //		Construct a special tree from given preorder traversal
-//		Given an array ‘pre[]’ that represents Preorder traversal of a spacial 
+//		Given an array ï¿½pre[]ï¿½ that represents Preorder traversal of a spacial 
 //		binary tree where every node has either 0 or 2 children. 
-//		One more array ‘preLN[]’ is given which has only two possible values ‘L’ and ‘N’. 
-//		The value ‘L’ in ‘preLN[]’ indicates that the corresponding node in Binary Tree 
-//		is a leaf node and value ‘N’ indicates that the corresponding node is non-leaf 
+//		One more array ï¿½preLN[]ï¿½ is given which has only two possible values ï¿½Lï¿½ and ï¿½Nï¿½. 
+//		The value ï¿½Lï¿½ in ï¿½preLN[]ï¿½ indicates that the corresponding node in Binary Tree 
+//		is a leaf node and value ï¿½Nï¿½ indicates that the corresponding node is non-leaf 
 //		node. Write a function to construct the tree from the given two arrays.
 //
 //

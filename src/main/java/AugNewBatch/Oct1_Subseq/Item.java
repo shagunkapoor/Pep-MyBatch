@@ -1,4 +1,4 @@
-package Oct1_Subseq;
+package AugNewBatch.Oct1_Subseq;
 
 public class Item implements Comparable<Item>{
 

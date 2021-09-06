@@ -1,3 +1,5 @@
+package June14;
+
 import java.util.Scanner;
 
 public class COctalAddition {

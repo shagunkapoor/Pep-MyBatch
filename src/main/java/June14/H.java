@@ -1,4 +1,4 @@
-
+package June14;
 //Take as input
 //1. first number: a
 //2. common difference for the AP: d

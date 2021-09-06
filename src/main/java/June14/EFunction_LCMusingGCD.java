@@ -1,3 +1,5 @@
+package June14;
+
 import java.util.Scanner;
 
 //LCM=Prod of 2 no./GCD

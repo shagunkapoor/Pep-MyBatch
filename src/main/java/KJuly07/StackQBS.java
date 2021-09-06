@@ -46,11 +46,11 @@ public class StackQBS {
 			}
 		}
 	}
-}
+//}
 
-	class DQueueByStack {
-		
-	}
+//	class DQueueByStack {
+//
+//	}
 	
 		
 	public void main(String[] args) {

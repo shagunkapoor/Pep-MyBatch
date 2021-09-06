@@ -1,7 +1,5 @@
 package KJuly19;
 
-import KJuly17.BinaryTree;
-
 import java.util.LinkedList;
 
 public class Client {

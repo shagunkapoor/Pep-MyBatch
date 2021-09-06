@@ -1,3 +1,5 @@
+package Hackerrank;
+
 import java.util.Scanner;
 
 //Take as input N, a number. Write a recursive function which prints counting

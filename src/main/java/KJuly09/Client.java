@@ -1,7 +1,5 @@
 package KJuly09;
 
-import LAug18.LinkedList;
-
 public class Client {
 
 	public static void main(String[] args) {

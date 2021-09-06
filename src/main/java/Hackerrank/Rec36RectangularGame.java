@@ -1,3 +1,5 @@
+package Hackerrank;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -83,9 +85,9 @@ public class Rec36RectangularGame {
 
 	public static void rectgame(int n, int[] a, int[] b, int i, int j, int[][] arr) {
 
-		if(vidx==arr.length){
+//		if(vidx==arr.length){
 			
-		}
+//		}
 	}
 
 }

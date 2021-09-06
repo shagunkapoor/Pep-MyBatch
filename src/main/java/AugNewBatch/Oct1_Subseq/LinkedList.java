@@ -1,6 +1,5 @@
-package Oct1_Subseq;
+package AugNewBatch.Oct1_Subseq;
 
-import LinkedList.Node;
 
 public class LinkedList {
 

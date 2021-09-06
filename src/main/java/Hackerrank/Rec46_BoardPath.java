@@ -1,3 +1,5 @@
+package Hackerrank;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -12,7 +14,7 @@ public class Rec46_BoardPath {
 		int m = scn.nextInt();
 		int[][] arr = new int[n][n];
 		int count = countways(0, 0, n - 1, n - 1, "", m, arr);
-		boardpath(n, m);
+//		boardpath(n, m);
 
 	}
 
@@ -25,11 +27,12 @@ public class Rec46_BoardPath {
 			return cnt;
 		}
 		
-		countways(sr+dice, sc+dice, dr, dc, path+"arr[i", m, arr)
+//		countways(sr+dice, sc+dice, dr, dc, path+"arr[i", m, arr);
 		
 		for(int dice=1;dice<=m;dice++){
 			
 		}
+		return 0;
 	}
 
 	public static ArrayList<String> returnpaths(int src, int dest, int[][] arr, int m) {
@@ -51,5 +54,6 @@ public class Rec46_BoardPath {
 
 			}
 		}
+		return new ArrayList<>();
 	}
 }

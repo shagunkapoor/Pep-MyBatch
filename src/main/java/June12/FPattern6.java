@@ -1,4 +1,6 @@
- import java.util.Scanner;
+package June12;
+
+import java.util.Scanner;
 
  
 //*** ***

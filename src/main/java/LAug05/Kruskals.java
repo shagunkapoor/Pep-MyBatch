@@ -128,7 +128,7 @@ public class Kruskals {
 		graph[6][3] = 10;
 	}
 	
-	public class EdgePair{
+	public static class EdgePair{
 		int u;
 		int v;
 		int wt;

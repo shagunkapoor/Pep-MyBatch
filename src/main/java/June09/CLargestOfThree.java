@@ -1,3 +1,5 @@
+package June09;
+
 public class CLargestOfThree {
 
 	public static void main(String[] args) {

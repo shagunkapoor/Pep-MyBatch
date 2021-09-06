@@ -1,6 +1,8 @@
+package Hackerrank;
+
 import java.util.Scanner;
 
-//Micro just bought a maze, that can be represented as a matrix A of size N×M, 
+//Micro just bought a maze, that can be represented as a matrix A of size Nï¿½M, 
 //where rows are numbered from 1 to N and columns are numbered from 1 to M. Each
 //cell of the matrix can be either 0 or 1. If a cell is 0 that means it cannot 
 //be visited and if it is 1, then it can be visited. Allowed moves are up, down,

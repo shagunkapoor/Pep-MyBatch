@@ -1,7 +1,5 @@
 package KJuly06;
 
-import KJuly07.Stack;
-
 public class DynamicStack extends Stack {
 
 	public DynamicStack(int cap) {
