@@ -369,7 +369,7 @@ public class LinkedList {
         tail.next = null;
     }
 
-    public int kthfromLast(int k) {
+    public int kthfromLast(int k) { //O(n)
         Node fast = head;
         Node slow = head;
         for (int i = 0; i < k; i++) {

@@ -23,23 +23,23 @@ public class BDuplicateParenthesis extends Stack {
 	
 
 	public static boolean checkduplicates(String s) {
-		Stack obj = new BDuplicateParenthesis(s.length());
+		Stack stack = new BDuplicateParenthesis(s.length());
 		int cntr = 0;
 		boolean val = false;
 		for (int i = 0; i < s.length(); i++) {
 			if (s.charAt(i) == '(') {
-				obj.push(s.charAt(i));
+				stack.push(s.charAt(i));
 			} else if (s.charAt(i) == ')') {
-				if (obj.top() == '(') {
+				if (stack.top() == '(') {
 					val = true;
 				} else {
-					while (obj.top() != '(') {
-						obj.pop();
+					while (stack.top() != '(') {
+						stack.pop();
 					}
-					obj.pop();
+					stack.pop();
 				}
 			} else {
-				obj.push(s.charAt(i));
+				stack.push(s.charAt(i));
 			}
 		}
 		return val;

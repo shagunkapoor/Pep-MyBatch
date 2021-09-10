@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class CCrossword {
 
+	//+ => Occupied
+	//- => Available
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		char[][] box = { { '+', '-', '+', '+', '+', '+', '+', '+', '+', '+' },

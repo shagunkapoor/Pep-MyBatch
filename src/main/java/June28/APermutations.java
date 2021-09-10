@@ -2,7 +2,7 @@ package June28;
 
 public class APermutations {
 
-	// Total no of ways to place 3 queens
+	// Total no of ways to place 3 queens in  5 boxes
 	public static void main(String[] args) {
 
 		boolean[] boxes = new boolean[5];

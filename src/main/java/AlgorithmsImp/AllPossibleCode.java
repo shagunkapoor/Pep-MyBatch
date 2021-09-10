@@ -5,8 +5,8 @@ public class AllPossibleCode {
     public static void main(String[] args) {
 
         // String s = "11234";
-        // String s="012";
-        String s = "2611055971756562";
+        String s = "1012";
+//        String s = "2611055971756562";
         //
         printCode(s, "");
         printCount(s);
@@ -26,8 +26,8 @@ public class AllPossibleCode {
         if (Integer.parseInt(ch1) > 0)
             printCode(ros1, ans + c1);
 
-        if (Integer.parseInt(ch1) == 0)
-            printCode(ros1, ans);
+//        if (Integer.parseInt(ch1) == 0)
+//            printCode(ros1, ans);
 
         if (ques.length() >= 2) {
 
@@ -36,7 +36,7 @@ public class AllPossibleCode {
 
             char c2 = (char) (Integer.parseInt(ch2) + 'a' - 1);
 
-            if (Integer.parseInt(ch2) <= 26) {
+            if (Integer.parseInt(ch2) >= 10 && Integer.parseInt(ch2) <= 26) {
                 printCode(ros2, ans + c2);
             }
         }

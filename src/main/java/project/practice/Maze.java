@@ -14,7 +14,7 @@ public class Maze {
 		int n = scn.nextInt();
 		System.out.println("Enter the number of faces of dice");
 		int m = scn.nextInt();
-		boardpath(n, m, 0);
+//		boardpath(n, m, 0);
 
 	}
 
@@ -29,7 +29,7 @@ public class Maze {
 			int inter = src + dice;
 
 		}
-		String interdestpath = boardpath(n, dice, inter, n);
+//		String interdestpath = boardpath(n, dice, inter, n);
 
 	}
 }

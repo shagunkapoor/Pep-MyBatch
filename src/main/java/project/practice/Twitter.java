@@ -152,7 +152,7 @@ public class Twitter {
 		values.add(15);
 		
 
-		treeConnections t = new treeConnections();
+//		treeConnections t = new treeConnections();
 
 		for (int i = 0; i < m; i++) {
 

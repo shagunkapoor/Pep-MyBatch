@@ -18,6 +18,8 @@ public class BPrintNQueensSubSeq {
 			return;
 		}
 
+		//Used to enable solution via back-tracking
+		//Takes the control to last box (16) and the performs operations while coming back
 		printNqueensSS(board, bno + 1, qpsf, csf);
 
 		int r = (bno - 1) / board.length;
