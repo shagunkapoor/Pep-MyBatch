@@ -1,4 +1,4 @@
-package DSA_Udemy;
+package DSA_Udemy.Arrays;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,8 @@ import java.util.HashSet;
 
 //Subsequence which contains max integers
 //that can be re-ordered to form consecutive elements
-public class LongestBand {
+//Max elts that form sorted sequence
+public class DLongestBand {
     public static void main(String[] args) {
         int[] arr = {1, 9, 3, 0, 18, 5, 2, 4, 10, 7, 12, 6};
         //Ans: 0,1,2,3,4,5,6,7 => 8 elts

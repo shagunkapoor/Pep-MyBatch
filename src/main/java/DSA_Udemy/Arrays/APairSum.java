@@ -1,10 +1,10 @@
-package DSA_Udemy;
+package DSA_Udemy.Arrays;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
 //Find a pair that sums up to the target
-public class PairSum {
+public class APairSum {
     public static void main(String[] args) {
         int[] arr = {10, -2, -6, 4, 17, 13};
         int target = 15;

@@ -1,10 +1,10 @@
-package DSA_Udemy;
+package DSA_Udemy.Arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 //Find the triplets that sums up to the target
-public class Triplets {
+public class BTriplets {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 15};
         int target = 18;

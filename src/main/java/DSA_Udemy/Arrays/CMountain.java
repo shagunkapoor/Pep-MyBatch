@@ -1,9 +1,9 @@
-package DSA_Udemy;
+package DSA_Udemy.Arrays;
 
 //Returns the length of highest mountain /\
 //Mountain = adjascent integers that are strictly increasing until they reach a peak, at which they become strictly decreasing
 //Atleast 3 no. are required to form a mountain
-public class Mountain {
+public class CMountain {
     public static void main(String[] args) {
         int[] arr = {5, 6, 1, 2, 3, 4, 5, 4, 3, 2, 0, 1, 2, 3, -2, 4};
 
