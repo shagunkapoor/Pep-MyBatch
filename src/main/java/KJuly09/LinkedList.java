@@ -388,7 +388,7 @@ public class LinkedList {
         Node fast = head;
         Node slow = head;
 
-        while (fast.next != null && fast.next.next != null) {
+        while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
         }
@@ -596,5 +596,56 @@ public class LinkedList {
             l1temp = l1temp.next;
         }
         return l3;
+    }
+
+    public boolean detectLoop() {
+        Node slow = head, fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void removeLoop() {
+        Node slow = head, fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                break;
+            }
+        }
+
+        //No Loop
+        if (slow != fast) {
+            return;
+        }
+
+        //Loop at first index
+        if (slow == head) {
+            while (fast.next != slow) {
+                fast = fast.next;
+            }
+            fast.next = null;
+        } else {
+            slow = head;
+            while (fast.next != slow.next) {
+                if (fast.next == slow) { //
+                    break;
+                }
+                slow = slow.next;
+                fast = fast.next;
+            }
+            fast.next = null;
+        }
+        return;
     }
 }
