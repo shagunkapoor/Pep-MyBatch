@@ -27,6 +27,7 @@ public class HashMap1 {
 
 	}
 
+	//String s = "aabrakadabra";
 	public static void highestFreqCharacter(String s) {
 		HashMap<Character, Integer> hmap = new HashMap<>();
 
@@ -90,6 +91,7 @@ public class HashMap1 {
 
 	}
 
+	//int[] arr = { 2, 12, 9, 16, 10, 5, 3, 20, 25, 11, 1, 8, 6 };
 	public static void longestConsecutiveElements(int[] arr) {
 		HashMap<Integer, Boolean> hmap = new HashMap<>();
 
@@ -123,6 +125,7 @@ public class HashMap1 {
 		}
 	}
 
+	//String str = "aabbcaabdaacbbcdaac";
 	public static void smallestSubstringWithUniqueChars(String s) {
 		HashMap<Character, Integer> hmap = new HashMap<>();
 		HashMap<Character, Integer> temphmap = new HashMap<>();

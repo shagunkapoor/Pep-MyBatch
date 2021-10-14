@@ -275,6 +275,7 @@ public class BinaryTree {
         printSingleChild(node.right);
     }
 
+    //Print All the nodes that are 'k' steps far from the given node
     public void printStepsFar(int data, int steps) {
         ArrayList<Node> paths = nodetorootpath2(root, data);
         for (int i = 0; i < paths.size(); i++) {

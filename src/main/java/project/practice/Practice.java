@@ -66,8 +66,7 @@ public class Practice {
 		return;
 	}
 	
-	private static boolean isPower(int n) 
-    { 
+	private static boolean isPower(int n) {
 		if(n==1)
 			return true;
         // Find Log n in different 

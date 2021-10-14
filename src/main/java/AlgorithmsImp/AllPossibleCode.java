@@ -34,9 +34,8 @@ public class AllPossibleCode {
             String ch2 = ques.substring(0, 2);
             String ros2 = ques.substring(2);
 
-            char c2 = (char) (Integer.parseInt(ch2) + 'a' - 1);
-
             if (Integer.parseInt(ch2) >= 10 && Integer.parseInt(ch2) <= 26) {
+                char c2 = (char) (Integer.parseInt(ch2) + 'a' - 1);
                 printCode(ros2, ans + c2);
             }
         }
@@ -75,4 +74,33 @@ public class AllPossibleCode {
 
     }
 
+    //Ways to decode a string: 1123
+    //O(n)
+    public static int allPossibleCode(String str) {
+        int[] decodeCount = new int[str.length() + 1];
+
+        decodeCount[0] = 1;
+        for (int i = 1; i < decodeCount.length; i++) {
+
+            if (str.charAt(i - 1) == '0' && str.charAt(i) == '0') {// 0-0
+                decodeCount[i] = 0;
+            } else if (str.charAt(i - 1) == '0' && str.charAt(i) != '0') {// 0-!0
+                decodeCount[i] = decodeCount[i - 1];
+            } else {
+                boolean b = Integer.parseInt(str.substring(i - 1, i + 1)) <= 26;
+                if (str.charAt(i - 1) != '0' && str.charAt(i) == '0') {// !0-0
+                    if (b) {
+                        decodeCount[i] = decodeCount[i - 2];
+                    }
+                } else {// !0-!0
+                    decodeCount[i] = decodeCount[i - 1];
+                    if (b) {
+                        decodeCount[i] += decodeCount[i - 2];
+                    }
+                }
+            }
+        }
+
+        return decodeCount[decodeCount.length - 1];
+    }
 }

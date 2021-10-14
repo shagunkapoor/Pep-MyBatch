@@ -21,15 +21,15 @@ public class BinarySearchTree {
 		root = construct(arr, 0, arr.length - 1);
 	}
 
-	private Node construct(int[] arr, int lo, int hi) {
+	private Node construct(int[] sortedArr, int lo, int hi) {
 
 		if (lo > hi) {
 			return null;
 		}
 		int mid = (lo + hi) / 2;
-		Node node = new Node(arr[mid]);
-		node.left = construct(arr, lo, mid - 1);
-		node.right = construct(arr, mid + 1, hi);
+		Node node = new Node(sortedArr[mid]);
+		node.left = construct(sortedArr, lo, mid - 1);
+		node.right = construct(sortedArr, mid + 1, hi);
 		return node;
 
 	}

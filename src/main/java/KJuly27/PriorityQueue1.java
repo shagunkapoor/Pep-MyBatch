@@ -10,8 +10,9 @@ public class PriorityQueue1 {
 	public static void main(String[] args) {
 
 		int[] arr = { 10, 44, 2, 15, 9, 63, 8 };
-		System.out.println("MIN PQ");
-		minPQ(arr);/*
+//		System.out.println("MIN PQ");
+//		minPQ(arr);
+		/*
 		System.out.println();
 		// System.out.println("MAX PQ");
 		// maxPQ(arr);
@@ -21,13 +22,15 @@ public class PriorityQueue1 {
 		// System.out.println("Print K smallest");
 		// printKSmallestItems(arr, 3);
 		//
-		// ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
-		// lists.add(new ArrayList<>(Arrays.asList(11, 15, 20, 25)));
-		// lists.add(new ArrayList<>(Arrays.asList(5, 7, 14)));
-		// lists.add(new ArrayList<>(Arrays.asList(8, 12, 16, 24, 32)));
-		// lists.add(new ArrayList<>(Arrays.asList(30, 40)));
-		// System.out.println("Merge K Sorted Lists");
-		// mergeKSortedLists(lists);
+		*/
+		 ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
+		 lists.add(new ArrayList<>(Arrays.asList(11, 15, 20, 25)));
+		 lists.add(new ArrayList<>(Arrays.asList(5, 7, 14)));
+		 lists.add(new ArrayList<>(Arrays.asList(8, 12, 16, 24, 32)));
+		 lists.add(new ArrayList<>(Arrays.asList(30, 40)));
+		 System.out.println("Merge K Sorted Lists");
+		 mergeKSortedLists(lists);
+		 /*
 		//
 		// System.out.println();
 		// int[] arr2 = { 30, 22, 10, 40, 55, 60, 50, 70 };
@@ -143,6 +146,7 @@ public class PriorityQueue1 {
 		}
 	}
 
+	//int[] arr2 = { 30, 22, 10, 40, 55, 60, 50, 70 };
 	public static void sortNearlySortedArray(int[] arr, int k) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
 
