@@ -12,6 +12,9 @@ public class BPrintEquisets {
 		printequisetswothAL(arr, 0, new ArrayList<>(), 0, new ArrayList<>(), 0);
 	}
 
+	//Time -> O(2^n)
+	//Space-> O(n)
+
 	//Pair of all sets whose sum is equal
 	public static void printequisets(int[] arr, int vidx, String s1, int sos1, String s2, int sos2) {
 

@@ -40,6 +40,25 @@ public class MinChairs {
             }
         }
 
+        //OR
+//        public int solve(ArrayList<ArrayList<Integer>> A) {
+//            int start[] = new int[A.size()];
+//            int end[] = new int[A.size()];
+//            for(int i=0; i<A.size(); i++) {
+//                start[i] = A.get(i).get(0);
+//                end[i] = A.get(i).get(1);
+//            }
+//            Arrays.sort(start);
+//            Arrays.sort(end);
+//            int idx = 0;
+//            for(int i=0; i<start.length; i++) {
+//                if(start[i]>=end[idx]) {
+//                    idx++;
+//                }
+//            }
+//            return end.length-idx;
+//        }
+
         System.out.println(maxChairRequired);
     }
 }

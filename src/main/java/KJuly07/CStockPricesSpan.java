@@ -17,6 +17,7 @@ public class CStockPricesSpan extends Stack {
         }
     }
 
+    //Increasing subarray for each stock price
     public static int[] spans(int[] prices) {
         int[] sp = new int[prices.length];
         Stack obj = new CStockPricesSpan(prices.length);

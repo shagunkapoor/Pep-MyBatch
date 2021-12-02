@@ -390,7 +390,7 @@ public class GenricTree {
     private int justLarger(Node node, int val) {
         int res = Integer.MAX_VALUE;
 
-        if (node.data > val && node.data < res) {
+        if ( val < node.data && node.data < res) {
             res = node.data;
         }
 

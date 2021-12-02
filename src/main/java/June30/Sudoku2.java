@@ -2,9 +2,10 @@ package June30;
 
 public class Sudoku2 { //O(n^n^2)
 
+	//O(9^(n*n))
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[][] arr={ 
+		int[][] arr={
 				{3,0,6,5,0,8,4,0,0},
 				{5,2,0,0,0,0,0,0,0},
 				{0,8,7,0,0,0,0,3,1},
@@ -15,7 +16,7 @@ public class Sudoku2 { //O(n^n^2)
 				{0,0,0,0,0,0,0,7,4},
 				{0,0,5,2,0,6,3,0,0}
 		};
-		
+
 		int[] rows=new int[9];
 		int[] cols=new int[9];
 		int[][] sms=new int[3][3];
@@ -36,14 +37,14 @@ public class Sudoku2 { //O(n^n^2)
 				}
 				System.out.println();
 			}
-			
-			
+
+
 			return;
 		}
-		
+
 		int row=(cellno-1)/arr.length;
 		int col=(cellno-1)%arr.length;
-		
+
 		if(arr[row][col]!=0){
 			sudoku(arr, cellno+1, rows, cols, sms);
 		}else{
@@ -57,7 +58,7 @@ public class Sudoku2 { //O(n^n^2)
 		}
 	}
 	private static boolean isAvailable(int[][] arr, int[] rows, int[] cols, int[][]sms, int num, int row, int col){
-		
+
 		int mask=1<<num;
 		if((rows[row]& mask) !=0){
 			return false;
@@ -69,18 +70,18 @@ public class Sudoku2 { //O(n^n^2)
 			return true;
 		}
 	}
-	
+
 	private static void reserveNumber(int[][] arr, int[] rows, int[] cols, int[][] sms, int choice, int row, int col){
-		
+
 		arr[row][col]=choice;
 		int mask=1<<choice;
 		rows[row] |= mask;
 		cols[col] |=mask;
 		sms[row/3][col/3] |=mask;
-		
+
 	}
 	private static void releaseNumber(int[][] arr, int[] rows, int[] cols, int[][] sms, int choice, int row, int col){
-		
+
 		arr[row][col]=0;
 		int mask= ~(1<<choice);
 		rows[row] &= mask;

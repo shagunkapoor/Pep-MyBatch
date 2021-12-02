@@ -26,6 +26,9 @@ public class APrintTargetSets {
 		printsubsetusingArrayList(arr,0,100,list,0);
 	}
 
+	//Time -> O(2^n)
+	//Space-> O(n)
+
 	//All subsets with sum < target
 	public static void printsubset(int[] arr, int vidx, int target, String ssf,int sumsf){
 
@@ -35,7 +38,7 @@ public class APrintTargetSets {
 			}
 			return;
 		}
-		
+
 		printsubset(arr, vidx+1, target, ssf, sumsf);
 		printsubset(arr, vidx+1, target, ssf+" "+arr[vidx], sumsf+arr[vidx]);
 	}

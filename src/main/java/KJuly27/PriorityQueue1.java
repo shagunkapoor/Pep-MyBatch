@@ -54,13 +54,13 @@ public class PriorityQueue1 {
 		// Trial for extra functions
 		 if(pq.contains(2))
 		 System.out.println("2 is present");
-		
+
 //		 System.out.println(pq);
 //		 pq.poll();
 //		 pq.clear();
 //		 pq.remove();
-//		 pq.remove(63);	
-//		
+//		 pq.remove(63);
+//
 //		 Object[] parr=pq.toArray();
 //		 for(int i=0;i<parr.length;i++){
 //		 System.out.print(parr[i]+" ");
@@ -165,7 +165,9 @@ public class PriorityQueue1 {
 
 	public static class MedianPQ {
 
+		//Larger half
 		PriorityQueue<Integer> lhminPQ = new PriorityQueue<>();
+		//Shorter half
 		PriorityQueue<Integer> shmaxPQ = new PriorityQueue<>(Collections.reverseOrder());
 		int size = 0;
 

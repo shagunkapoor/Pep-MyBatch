@@ -52,9 +52,10 @@ public class DP {
 
         // Aug 10
 //		String s = "abccbc";
-//		int[] dims = { 10, 20, 30, 40, 50, 60 };
+        int[] dims = {10, 20, 30, 40, 50, 60};
         // System.out.println(minCutPalindrome(s, 0, 5, new
         // int[s.length()][s.length()]));
+        System.out.println(matrixChainMultiplicationTab(dims));
         // System.out.println(matrixChainMultiplication(dims, 0, dims.length -
         // 1, new int[dims.length][dims.length]));
         // System.out.println(maxsubseq("abcabc"));
@@ -337,7 +338,7 @@ public class DP {
     }
 
     // Aug 09
-
+    //O(n^2)
     public static int longestIncreasingSubseq(int[] arr) {
         int[] countlis = new int[arr.length];
 
@@ -590,6 +591,34 @@ public class DP {
         return totalcost;
     }
 
+    //static char[] ch={'A','B','C','D','E'};
+    //int[] dims = { 10, 20, 30, 40, 50, 60 };
+    public static int matrixChainMultiplicationTab(int[] dims) {
+        int[][] minCost = new int[dims.length - 1][dims.length - 1];
+
+        for (int len = 1; len <= minCost.length; len++) {
+            for (int sp = 0; sp <= minCost[0].length - len; sp++) {
+                int ep = sp + len - 1;
+
+                if (len == 1) {
+                    minCost[sp][ep] = 0;
+                } else if (len == 2) { //A*B => 10*20*30 operations
+                    minCost[sp][ep] = dims[sp] * dims[ep + 1] * dims[ep];
+                } else {// AB/C
+                    minCost[sp][ep] = Integer.MAX_VALUE;
+                    for (int k = sp; k < ep; k++) {
+                        int leftCost = minCost[sp][k];
+                        int rightCost = minCost[k + 1][ep];
+                        int ownCost = dims[sp] * dims[k + 1] * dims[ep + 1];
+                        minCost[sp][ep] = Math.min(minCost[sp][ep], leftCost + rightCost + ownCost);
+                    }
+                }
+            }
+        }
+
+        return minCost[0][minCost.length - 1];
+    }
+
     public static int maxsubseq(String str) {
         int acount = 0, bcount = 0, ccount = 0;
 
@@ -636,6 +665,7 @@ public class DP {
         return minTrial + 1;
     }
 
+    //O(ef^2)
     public static int eggDropTab(int eggs, int floors) {
         int[][] arr = new int[eggs + 1][floors + 1];
 
@@ -748,6 +778,7 @@ public class DP {
     //Ways to decode a string: 1123
     //O(n)
     public static int allPossibleCode(String str) {
+        //Possible Codes so far
         int[] decodeCount = new int[str.length() + 1];
 
         decodeCount[0] = 1;

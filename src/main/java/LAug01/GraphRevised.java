@@ -134,6 +134,7 @@ public class GraphRevised {
         graph[6].add(e15);
         graph[6].add(e16);
     }
+
     private static void constructGraphForConnectedComp(ArrayList<Edge>[] graph, int vtces) {
         for (int i = 0; i < vtces; i++) {
             graph[i] = new ArrayList<>();
@@ -159,6 +160,7 @@ public class GraphRevised {
         graph[6].add(e15);
         graph[6].add(e16);
     }
+
     private static void constructDirectedGraph(ArrayList<Edge>[] graph, int vtces) {
         for (int i = 0; i < vtces; i++) {
             graph[i] = new ArrayList<>();
@@ -183,7 +185,9 @@ public class GraphRevised {
 
 
     //DFS
-    //O(v+e)
+
+    //Time ->O(v^e)
+    //Space->O(v)
     private static boolean hasPath(ArrayList<Edge>[] graph, int src, int dest, boolean[] visited) {
         if (src == dest) {
             return true;
@@ -487,10 +491,12 @@ public class GraphRevised {
             visited[rem.val] = rem.level;
 
             for (Edge edge : graph[rem.val]) {
-                queue.addLast(new BipartitePair(edge.nbr, rem.level + 1));
+                if (visited[rem.val] == -1) {
+                    queue.addLast(new BipartitePair(edge.nbr, rem.level + 1));
+                }
             }
         }
-        return false;
+        return true;
     }
 
     //Given a graph, representing people and their connectivity.

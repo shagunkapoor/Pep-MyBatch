@@ -8,8 +8,10 @@ public class AllPossibleCode {
         String s = "1012";
 //        String s = "2611055971756562";
         //
-        printCode(s, "");
-        printCount(s);
+//        printCode(s, "");
+//        printCount(s);
+
+        System.out.println(allPossibleCode("110"));
 
     }
 

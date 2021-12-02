@@ -51,6 +51,7 @@ public class HashMap1 {
 		System.out.println(maxfc + " " + hmap.get(maxfc));
 	}
 
+	//O(m+n)
 	public static void getCommonElements1(int[] one, int[] two) {
 		HashMap<Integer, Integer> hmap = new HashMap<>();
 		for (int i = 0, j = 0; i < one.length || j < two.length; i++, j++) {
@@ -145,7 +146,7 @@ public class HashMap1 {
 				cep++;
 			} else {
 				temphmap.put(s.charAt(csp), temphmap.get(s.charAt(csp)) - 1);
-				
+
 				if (temphmap.get(s.charAt(csp)) == 0) {
 					temphmap.remove(s.charAt(csp));
 				}

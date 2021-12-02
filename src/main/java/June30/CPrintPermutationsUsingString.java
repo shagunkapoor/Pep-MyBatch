@@ -13,6 +13,8 @@ public class CPrintPermutationsUsingString {
 		allpermutationsusingsb(new StringBuilder("abc"), new StringBuilder());
 	}
 
+	//Time -> O(n!)
+
 	public static void permutationsusingstr(String ques, String ans) {
 		if (ques.length() == 0) {
 
