@@ -1,8 +1,6 @@
-package TW;
+package Z_Interviews;
 
-import java.util.Scanner;
-
-public class ElectricityProblem {
+public class TW_ElectricityProblem {
 
 	public static void main(String[] args) {
 		Bill();
